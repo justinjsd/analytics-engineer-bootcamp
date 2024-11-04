@@ -1,3 +1,5 @@
+-- Random First dbt SQL model
+
 
 /*
     Welcome to your first dbt model!
