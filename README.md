@@ -2,6 +2,13 @@
 
 Welcome to the Analytics Engineering Bootcamp project! This repository serves as a collection of my work and learnings throughout the bootcamp, focusing on developing skills in analytics engineering, particularly using dbt.
 
+## 🛠️ Tech Stack
+
+![dbt](https://img.shields.io/badge/dbt-FF694B?logo=dbt&logoColor=white&style=flat-square)
+![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?logo=googlebigquery&logoColor=white&style=flat-square)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=flat-square)
+![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&style=flat-square)
+
 ## 🚀 Project Structure
 
 - **ae_bootcamp/**: This folder contains all the project files and code developed during the bootcamp.
