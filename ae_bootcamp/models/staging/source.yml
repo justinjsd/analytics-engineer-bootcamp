@@ -1,8 +1,8 @@
-version: 2
+version: 2 
 sources:
-  - name: stg_northwind
+  - name: northwind
     schema: dl_northwind
-    tables:
+    tables: 
       - name: customer
       - name: employee_privileges
       - name: employees
@@ -11,7 +11,7 @@ sources:
       - name: invoices
       - name: order_details
       - name: order_details_status
-      - name: order_status
+      - name: orders_status
       - name: orders
       - name: orders_tax_status
       - name: privileges
