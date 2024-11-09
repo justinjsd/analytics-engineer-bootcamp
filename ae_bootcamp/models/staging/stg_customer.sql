@@ -3,7 +3,7 @@ WITH source AS
         SELECT 
             *
         FROM
-            {{ source('northwind', 'customer') }}
+            {{ source('stg_northwind', 'customer') }}
     )
 
 SELECT 
