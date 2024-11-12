@@ -1,7 +1,7 @@
 WITH source AS 
     (
         SELECT
-            id                   AS customer_id 
+            id                  AS employee_id 
             , company
             , last_name
             , first_name
@@ -21,20 +21,20 @@ WITH source AS
             , attachments
             , CURRENT_TIMESTAMP() AS insertion_timestamp
         FROM
-            {{ ref('stg_customer') }}
+            {{ ref('stg_employees') }}
     )
 
--- Deduplication of Records based on Customer ID - Getting a row number for each customer_id
+-- Deduplication of Records based on Employee ID - Getting a row number for each employee_id
 , unique_source AS 
     (
         SELECT 
             *,
-            ROW_NUMBER() OVER (PARTITION BY customer_id) AS row_number
+            ROW_NUMBER() OVER (PARTITION BY employee_id) AS row_number
         FROM
             source
     )
 
--- Deduplication of Records based on Customer ID - only filtering for ditinct records
+-- Deduplication of Records based on Employee ID - only filtering for ditinct records
 SELECT 
     * EXCEPT(row_number)
 FROM 
