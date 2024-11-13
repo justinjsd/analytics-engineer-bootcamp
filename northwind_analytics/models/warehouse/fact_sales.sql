@@ -1,9 +1,3 @@
-{{ config (
-    partition_by = {
-        "field": "order_date",
-        "data_type": "date" })
-}}
-
 WITH source AS 
     (
         SELECT
