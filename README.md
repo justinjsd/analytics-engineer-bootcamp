@@ -11,7 +11,7 @@ Welcome to the Analytics Engineering Bootcamp project! This repository serves as
 
 ## 🚀 Project Structure
 
-- **ae_bootcamp/**: This folder contains all the project files and code developed during the bootcamp.
+- **northwind_analytics/**: This folder contains all the project files and code developed during the bootcamp.
 - **resources/**: This directory includes essential files and documentation needed for the project.
 
 ## 📁 Folder Overview
